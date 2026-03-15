@@ -1,0 +1,14 @@
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-keep public class * extends java.lang.Exception
+-keep class org.webrtc.** { *; }
+-keep class be.tarsos.dsp.** { *; }
+-keep class com.google.firebase.** { *; }
+-keep class com.google.android.gms.** { *; }
+-keep class dagger.hilt.** { *; }
+-keep class javax.inject.** { *; }
+-keepattributes Signature
+-keepattributes Exceptions
+-keep class retrofit2.** { *; }
+-keep class kotlin.** { *; }
+-keep class kotlinx.coroutines.** { *; }
